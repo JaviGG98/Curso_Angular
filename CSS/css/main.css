@@ -1,0 +1,27 @@
+/*ETIQUETAS*/
+body
+{
+
+}
+.outer-top{
+    margin: 10px;
+}
+.inner-top{
+    margin: 15px;
+}
+.outer-bottom{
+    margin: 20px;
+}
+.inner-bottom{
+    margin: 25px;
+}
+
+/* CLASES */
+
+
+/*IDENTIFICADORES*/
+#container
+{
+    width:40%;
+    margin:0 auto;  
+}

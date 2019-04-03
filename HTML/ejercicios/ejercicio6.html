@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      form
+      {
+        margin: 0 auto;
+        width: 300px;
+      }
+    </style>
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form action="#" method="GET">
+      <p>
+        <label for="nombre">Nombre:</label>
+        <input
+          type="text"
+          autofocus
+          id="nombre"
+          required
+          name="nombre"
+          placeholder="introduce tu nombre"
+        />
+      </p>
+
+      <p>
+        <label for="mail">Correo Electrónico:</label>
+        <input
+          type="email"
+          name="mail"
+          required
+          size="50"
+          id="mail"
+          placeholder="introduce tu mail"
+        />
+      </p>
+
+      <p>
+        <label for="url">URL:</label>
+        <input
+          type="url"
+          name="url"
+          id="url"
+          placeholder="Escribe la URL de tu página"
+          size="25"
+        />
+      </p>
+
+      <p>
+        <label for="fecha">Fecha: </label>
+        <input type="date" name="fecha" id="fecha" /><br />
+      </p>
+
+      <p>
+        <label for="hora">Tiempo: </label>
+        <input type="time" name="hora" id="hora" />
+      </p>
+
+      <p>
+        <label for="datehora">Fecha y Hora</label>
+        <input type="datetime" name="datehora" id="datehora" />
+      </p>
+
+      <p>
+        <label for="mes">Mes: </label>
+        <input type="month" name="mes" id="mes" />
+      </p>
+
+      <p>
+        <label for="sem">Semana: </label>
+        <input type="week" name="sem" id="sem" />
+      </p>
+
+      <p>
+        <label for="num">Número(min -10, max 10) </label>
+        <input type="number" name="num" id="num" min="-10" max="10" />
+      </p>
+
+      <p>
+        <label for="tel">Teléfono: </label>
+        <input type="tel" name="tel" id="tel" />
+      </p>
+
+      <p>
+        <label for="busq">Término de búsqueda: </label>
+        <input type="search" name="busq" id="busq" />
+      </p>
+
+      <p>
+        <label for="color">Color favorito: </label>
+        <input type="color" name="color" id="color" />
+      </p>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

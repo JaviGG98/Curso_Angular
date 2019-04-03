@@ -1,0 +1,89 @@
+#container
+{
+    width: 880px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+.formulario 
+{
+    width:80%;
+    margin:0 auto;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(107, 23, 23);
+    background-color:#1ac25a;
+}
+.titulo
+{
+    justify-content: center;
+}
+
+.caja 
+{
+    border-radius: 5px;
+    border-width:2px;
+    border-style:solid;
+    padding:1%;
+    width:98%;
+    margin-bottom: 10px;
+    justify-content: center;
+    border-color:#520c0c;
+    background-color: #325c1e;
+}
+body
+{
+    background-color: #983e25;
+    align-items: center;
+}
+
+input[type=date],
+input[type=radio],
+input[type=checkbox],
+input[type=submit] 	
+{
+    width:auto;
+}
+
+input[type=date] 
+{
+    max-width:140px;
+}
+
+input[type=text],
+input[type=password] 
+{
+    max-width:200px;
+}
+
+input[type=submit] 
+{
+    border-color:#dddddd;
+    background-color: #aaaaaa;
+    color:black;
+}
+input[type=submit]:hover 
+{
+    background-color: black;
+    color:white;
+}
+input[type=submit]:hover 
+{
+    cursor:pointer;
+}
+input[type=submit] {
+    border-radius: 5px;
+    border-width:2px;
+    border-style:solid;
+    padding:5px 15px;
+    font-size:18px;
+}
+tr
+{
+    margin: 40px auto;
+}
+th
+{
+    margin: 40px auto;
+}

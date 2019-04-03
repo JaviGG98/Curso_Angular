@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <form action="#" method="GET">
+        <h1>Formulario de registro</h1>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="introduce tu nombre"><br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="introduce tus apellidos"><br>
+        <label for="sexo">Sexo:</label>
+        hombre<input type="radio" name="sexo" id="hombre">
+        mujer<input type="radio" name="sexo" checked id="mujer"><br>
+        <label for="mail">Email:</label>
+        <input type="email" name="mail" id="mail" placeholder="introduce tu mail"><br>
+        <label for="poblacion">Población</label>
+        <select name="poblacion" id="poblacion">
+            <option value="1">Alicante</option>
+            <option value="2">Elche</option>
+            <option value="3">Valencia</option>
+        </select><br>
+        <label for="area">Descripción:</label>
+        <textarea name="area" id="area" cols="30" rows="10"></textarea><br>
+        <input type="checkbox" name="check1" id="check1">
+        <label for="check1">Deseo recibir información sobre novedades y ofertas</label><br>
+        <input type="checkbox" name="check2" id="check2">
+        <label for="check2">Declaro haber leído y aceptar las condiciones generales del programa y la normativa de protección de datos</label><br>
+        <button type="submit" value="Enviar">Enviar</button>
+    </form>
+</body>
+</html>
