@@ -1,0 +1,23 @@
+/* ETIQUETAS Y SELECTORES */
+body
+{
+    background-color: #00C8F6;
+}
+header h1
+{
+    outline: 1px solid;
+}
+nav ul li
+{
+    display: inline;
+}
+nav ul li ul li
+{
+
+}
+/* CLASES */
+li.sub
+{
+    display:none;
+}
+/* IDENTIFICADORES */
