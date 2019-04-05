@@ -1,0 +1,35 @@
+/* ETIQUETAS */
+nav span a
+{
+    padding:5px;
+    color:black;
+}
+nav span:hover
+{
+    background-color: grey;
+    cursor: pointer;
+    color:white;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+article:nth-of-type(odd)
+{
+    background-color: rgb(177, 176, 176);
+}
+article p::first-line
+{
+    font-weight: bold;
+}
+article p::first-letter
+{
+    font-size:40px;
+    text-transform: capitalize;     
+}
+article:target
+{
+    border: 3px solid black;
+    background-color: white;
+}
+/* CLASES */
+
+/* IDENTIFICADORES */
