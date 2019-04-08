@@ -1,0 +1,22 @@
+/* ETIQUETAS */
+body
+{
+    background: #07A156;
+    width: 100%;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+img
+{
+    padding:5%;
+    width: 100px;
+    height: 100px;
+}
+
+/* CLASES */
+/* IDENTIFICADORES */
+/* MEDIA QUERY*/
