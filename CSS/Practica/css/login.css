@@ -8,7 +8,7 @@ form {
   display: flex;
   flex-direction: column;
   border: 2px groove lightcoral;
-  width: 20%;
+  width: 40%;
   padding: 5% 2% 5% 2%;
   border-radius: 5px;
   background-color: lightseagreen;
@@ -17,29 +17,31 @@ form {
 input {
   margin: 10px;
   padding: 5%;
+  font-size: 20px;
 }
 h1{
     color:lightgreen;
     text-decoration: underline;
+    margin:0 auto;
 }
 
 /* CLASS */
-.formulario {
+.layer-formulario {
   display: flex;
   justify-content: center;
 }
-.input-foco:focus {
+.input-focus:focus {
   background-color: aqua;
 }
 
 /* MEDIA QUERY */
-@media screen and (max-width:768px) { /* Cuando baje de 768 px lo hago más grande para que no quede tan pequeño al hacer pequeña la pantalla */
+@media screen and (max-width:768px) {
   form{
     width:40%;
   }
 }
 /* SELECTORS */
-input[type="submit"] { /* con este selecctor le aplico estilo al boton sin necesidad de usar una clase*/
+input[type="submit"] {
   text-decoration: none;
   padding: 10px 20px 10px 20px;
   background: #ee9d31;
