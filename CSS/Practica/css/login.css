@@ -1,27 +1,51 @@
-/* ETIQUETAS */
-body
-{
-    background: #07A156;
+/* TAGS */
+body {
+  background: lightslategrey;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-form
-{
-    border: 2px solid #C97402;
-    padding:5%;
-    background-color: #0BC3E6;
-    display: flex;
-    flex-direction: column;
+form {
+  display: flex;
+  flex-direction: column;
+  border: 2px groove lightcoral;
+  width: 20%;
+  padding: 5% 2% 5% 2%;
+  border-radius: 5px;
+  background-color: lightseagreen;
+  box-shadow: 10px 4px 5px 0px rgba(0, 0, 0, 0.98);
 }
-input
-{
-    margin:10px;
-    padding:5%;
+input {
+  margin: 10px;
+  padding: 5%;
 }
-/* CLASES */
-.formulario
-{
-    display: flex;
-    justify-content: center;
+h1{
+    color:lightgreen;
+    text-decoration: underline;
 }
-/* IDENTIFICADORES */
+
+/* CLASS */
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+.input-foco:focus {
+  background-color: aqua;
+}
+
 /* MEDIA QUERY */
+@media screen and (max-width:768px) { /* Cuando baje de 768 px lo hago más grande para que no quede tan pequeño al hacer pequeña la pantalla */
+  form{
+    width:40%;
+  }
+}
+/* SELECTORS */
+input[type="submit"] { /* con este selecctor le aplico estilo al boton sin necesidad de usar una clase*/
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  background: #ee9d31;
+  border: 1px red solid;
+  color: white;
+}
+input[type="submit"]:hover{
+  background-color: #FC4D4D;
+}
