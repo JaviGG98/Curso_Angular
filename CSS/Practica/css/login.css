@@ -1,5 +1,27 @@
 /* ETIQUETAS */
+body
+{
+    background: #07A156;
+}
 
+form
+{
+    border: 2px solid #C97402;
+    padding:5%;
+    background-color: #0BC3E6;
+    display: flex;
+    flex-direction: column;
+}
+input
+{
+    margin:10px;
+    padding:5%;
+}
 /* CLASES */
+.formulario
+{
+    display: flex;
+    justify-content: center;
+}
 /* IDENTIFICADORES */
 /* MEDIA QUERY */
