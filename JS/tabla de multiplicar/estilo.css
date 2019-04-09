@@ -1,0 +1,25 @@
+#body{
+	background-image:url("img/fondo.jpg");
+}
+#header{
+	text-align:center;
+	color:#E8330C;
+}
+.table{
+	background-color:white;
+}
+.fondorojo{
+	background-color:red;
+}
+.letrablanca{
+	color:white;
+}
+.letraroja{
+	color:red;
+}
+.letraazul{
+	color:blue;
+}
+.letraverde{
+	color:green;
+}

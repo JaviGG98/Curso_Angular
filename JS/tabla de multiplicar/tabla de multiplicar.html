@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Tablas de Multiplicar</title>
+		<meta name="Author" content="Javier García">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<script type="text/JavaScript">
+		function tabla()
+		{
+			document.write("<table class='table' border='1' align='center'><tr class='fondorojo letrablanca'>");
+				i=0;
+				while(i<=10)
+				{
+					document.write("<td>Tabla del " + i + "<br></td>");
+					i++;
+				}
+				document.write("</tr>");
+				document.write("<tr>");
+				i=0;
+				while(i<=10)
+				{
+					i=0;
+					while(i<=10)
+					{
+						document.write("<td>");
+						j=0;
+						while(j<=10)
+						{
+							document.write("<span class='letraazul'>" + i + "</span>");
+							document.write("*" + "<span class='letraverde'>" + j + "</span>");
+							document.write("=" + "<span class='letraroja'>" + i*j + "</span><br>");
+							j++;
+						}
+						document.write("</td>");
+						i++;
+					}
+					i++;
+				}
+				document.write("</tr></table>");
+		}
+		</script>
+	</head>
+	<body id="body"	>
+		<h1 id="header">Tablas de multiplicar</h1>
+		<form>
+			<input type="button" onclick="tabla()" name="tablas de multiplicar" value="tablas de multiplicar" >
+		</form>
+	</body>
+</html>
