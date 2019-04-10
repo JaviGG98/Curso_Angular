@@ -51,11 +51,23 @@ function lanzar() {
 	//creo un evento inputButton.addEventListener("click",addParrafo);para cuando le de click ejecute la funcion addParrafo
 	inputButton.addEventListener("click",addParrafo);
 }
-// function validar()
-// {}
+function validar() {
+	let titulo=miFormulario.titulo.value;
+	let numero=miFormulario.numero.value;
+	if(/^\s+$/.test(numero) || numero=="" || numero.length==0){
+		return false;
+	}
+	if(!/^[A-Z]{5,20}$/.test(titulo)){
+		alert("debe ser una letra de la A - Z y de 5 a 20 caracteres");
+		return false;
+	}
+	if(!/^([1-9]|10))
+}
 window.onload = function () {
 
-	miFormulario.btn_lanzar.style.display = "block";
-	miFormulario.btn_lanzar.onclick = lanzar;
+	let titulo=miFormulario.titulo.value;
+	let numero=miFormulario.numero.value;
+	titulo.onblur=validar;
+	numero.onblur=validar;
 
 }
