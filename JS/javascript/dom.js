@@ -1,8 +1,7 @@
 'use strict'
-
 let parrafos = document.getElementsByTagName("p");
-console.log(parrafos.length);
 let links = document.getElementsByTagName("a");
+let parrafoPrimero=parrafos[0].getElementsByTagName("a");
+console.log(parrafos.length);
 console.log(links.length);
-let parrafoPrimero=links[0];
-console.log(parrafoPrimero);
+console.log(parrafoPrimero.length);
