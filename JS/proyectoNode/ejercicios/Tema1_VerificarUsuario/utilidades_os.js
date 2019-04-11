@@ -1,20 +1,10 @@
-const os = require("os");
 
-const loginUsuario = os.userInfo();
+const os = require("os");
+const loginUsuario = os.userInfo().username;
 
 let cadena = loginUsuario.username
-function esUsuario(cadena) {
-    if(cadena == loginUsuario.username)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
-}
+let esUsuario = (login) => login === this.loginUsuario
 module.exports = {
     loginUsuario:loginUsuario,
-    cadena:cadena,
     esUsuario:esUsuario
 };
