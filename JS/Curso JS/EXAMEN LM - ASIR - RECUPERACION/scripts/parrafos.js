@@ -61,7 +61,6 @@ function validar() {
 		alert("debe ser una letra de la A - Z y de 5 a 20 caracteres");
 		return false;
 	}
-	if(!/^([1-9]|10))
 }
 window.onload = function () {
 
