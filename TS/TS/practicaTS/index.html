@@ -8,16 +8,18 @@
 </head>
 <body>
     <div id="contenendor">
+        <h1>Práctica Series</h1>
         <label for="serie">Serie:</label>
-        <input type="text" name="nameSerie" id="nameSerie">
+        <input type="text" placeholder="Nombre de la serie" name="nameSerie" id="nameSerie">
         <label for="n_Caps">Nº Capitulos:</label>
-        <input type="number" name="nCaps" id="nCaps">
+        <input type="number" placeholder="Número de capitulos" name="nCaps" id="nCaps">
         <select name="selectorModo" id="modo">
+            <option value="Selec" selected>Selecciona el modo</option>
             <option value="list">Lista</option>
             <option value="table">Tabla</option>
         </select>
         <input type="button" value="Enviar" id="boton">
-        <div>
+        <div id="divListaTabla">
 
         </div>
     </div>
