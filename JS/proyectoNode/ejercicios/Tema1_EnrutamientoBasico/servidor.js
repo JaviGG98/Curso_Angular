@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const os = require("os");
-const link = require("url");
+const url = require("url");
 
 var atenderPeticion = (request, response) => {
     var usuario = os.hostname();
