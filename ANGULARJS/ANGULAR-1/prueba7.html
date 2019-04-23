@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>Prueba AngularJS</title>
+</head>
+
+<body>
+    <div ng-app="myApp" ng-controller="namesCtrl">
+        <p>Escribe una letra en los campos para filtrar:</p>
+        <p><input type="text" ng-model="test1"></p>
+        <ul>
+            <li ng-repeat="x in pais | filter:test1">{{ x }}</li>
+        </ul>
+        <p><input type="text" ng-model="test2"></p>
+        <ul>
+            <li ng-repeat="x in provincia | filter:test2">{{ x }}</li>
+        </ul>
+    </div>
+
+    <script>
+        angular.module('myApp', []).controller('namesCtrl', function ($scope) {
+            $scope.pais = ['España', 'Francia', 'Italia', 'Reino Unido','Dinamarca','Finlandia','Islandia'];
+            $scope.provincia = ['Alicante', 'París', 'Florencia', 'Londres','Copenhagen'];
+        });
+    </script>
+</body>
+
+</html>
